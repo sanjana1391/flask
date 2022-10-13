@@ -4,7 +4,7 @@ from crud import MongoCRUD
 from error import UnsupportedRequestError
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'sj12!'
+app.config['SECRET_KEY'] = 'f8d8d62d5a9790dad915372e73bb202da93ae93b'
 app.config["APPLICATION_ROOT"] = "/api/"
 
 VALID_FORMAT = ("order")
